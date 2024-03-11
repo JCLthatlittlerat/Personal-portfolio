@@ -8,7 +8,19 @@ body{
     margin: 0;
     margin-top: 5px;
 }
+/*this is css for all the photos*/
+.photo{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+}
+.photo:hover{
+        transform:scale(1.03);
 
+        box-shadow: 5px 5px 10px black;
+        cursor: pointer;
+
+}
 /*=============================header & navbar css===============================*/
 .main-head{
     background-color: rgba(220, 220, 220, 0.959);
@@ -116,19 +128,6 @@ justify-content: space-around;
 }
 .about-photo{
     display: flex;   
-}
-/*this is css for all the photos*/
-.photo{
-    display: flex;
-    border-radius: 20px;
-    box-shadow: 5px 5px 20px black;
-}
-.photo:hover{
-        transform:scale(1.03);
-
-        box-shadow: 5px 5px 10px black;
-        cursor: pointer;
-
 }
 .about-text{
     display: flex;
